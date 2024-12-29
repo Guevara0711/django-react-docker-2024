@@ -56,5 +56,16 @@ Update the values in the `.env` file as needed.
 
 <pre>docker-compose exec frontend bash</pre>
 
+7. Install web vitals
+
+<pre>npm install web-vitals</pre>
+
+8. Install React Router Dom and Axios
+
+<pre>cd /app/${REACT_PROJECT_NAME}</pre>
+<pre>npm install react-router-dom axios</pre>
+
+
+
 
 The template ensures that a new Django project is created automatically if one doesn't already exist in the `backend` folder, and similarly, a new React project is created in the `frontend` folder. This allows developers to quickly set up a development environment and start building their Django-React applications.

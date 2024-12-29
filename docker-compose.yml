@@ -40,6 +40,7 @@ services:
     command: |
       bash -c "if [ ! -d ${REACT_PROJECT_NAME} ]; then
         npx create-react-app ${REACT_PROJECT_NAME};
+        cd ${REACT_PROJECT_NAME} && npm install web-vitals react-router-dom axios;
       fi;
       cd ${REACT_PROJECT_NAME} && npm start"
     volumes:
